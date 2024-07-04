@@ -92,8 +92,8 @@ function App() {
     <Desktop3/>
     <Desktop4/>
     <Desktop5/>
-    <Desktop6/>
-    <Desktop7/>
+    {/* <Desktop6/> // ye chnge hone hai
+    <Desktop7/> */}
 
     </>
   );

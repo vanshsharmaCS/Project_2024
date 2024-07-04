@@ -17,11 +17,11 @@ const Desktop = () => {
 
   return (
     <div className="w-full relative h-[64rem] overflow-hidden bg-[url('/public/desktop--4@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-[4.375rem] text-darkgoldenrod-200 font-dm-serif-display">
-      {/* <img
+      <img
         className="absolute top-[44.688rem] left-[35.688rem] w-[15.75rem] h-[17.063rem] overflow-hidden opacity-[0.4]"
         alt=""
         src="/tabla.svg"
-      /> */}
+      />
       <div ref={homeRef} className="absolute top-[9.438rem] left-[3.375rem] inline-block w-[55.625rem] h-[23.375rem] mix-blend-linear-burn">
         <span>{`Transform Your Passion into Performance: Explore Hindustani Music with `}</span>
         <span className="text-[4.5rem] font-dm-serif-text">Salman Usmani</span>
